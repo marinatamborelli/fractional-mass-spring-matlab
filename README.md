@@ -1,2 +1,2 @@
 # fractional-mass-spring-matlab
-MATLAB code for fractional mass–spring system
+Código MATLAB para a análise do comportamento da solução da equação Massa–Mola Fracionária.
