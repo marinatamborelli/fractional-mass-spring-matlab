@@ -1,4 +1,4 @@
-% Para mlf.m : Mittag-Leffler function Versión 1.2.0.0 por Igor Podlubny 
+% Para mlf.m : Mittag-Leffler function Versão 1.2.0.0 por Igor Podlubny 
 clc; clear; close all;
 
 % Parâmetros físicos
@@ -40,3 +40,4 @@ set(gca, 'FontSize', 12);   % fonte legível
 
 exportgraphics(gcf, 'massa_mola_fracionario.pdf', ...
                'ContentType', 'vector');
+
