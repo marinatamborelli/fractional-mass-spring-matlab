@@ -33,6 +33,7 @@ end
 xlabel('t');
 ylabel('x(t)');
 legend('Location','best');
+ylim([-2 2])
 
 % Para gerar o pdf automático da imagem:
 set(gcf, 'Color', 'w');      % fundo branco
@@ -40,4 +41,5 @@ set(gca, 'FontSize', 12);   % fonte legível
 
 exportgraphics(gcf, 'massa_mola_fracionario.pdf', ...
                'ContentType', 'vector');
+
 
